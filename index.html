@@ -1,0 +1,41 @@
+
+<link rel="stylesheet" href="css/Steps.css"/>
+<script src="https://kit.fontawesome.com/d76bd4455d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/Steps.js"></script>
+<div class="container">
+    <br/>
+    <br/>
+<ul class="nav justify-content-center " id="passos">
+    <li class="nav-item dot active  text-center">
+        <a class="nav-link icone-step active" href="#"><i class="fas fa-book"></i></a>
+        <label class="label-wizard active">Informações Gerais</label>
+    </li>
+    <div class="linha active"></div>
+    <li class="nav-item dot text-center" >
+        <a class="nav-link icone-step" href="#"><i class="fas fa-tools"></i></a>
+        <label class="label-wizard">Serviços do Projeto</label>
+    </li>  
+    <div class="linha"></div>
+    <li class="nav-item dot text-center" >
+        <a class="nav-link icone-step" href="#"><i class="fas fa-address-card"></i></a>
+        <label class="label-wizard">Equipes do Projeto</label>
+    </li>
+    <div class="linha"></div>
+    <li class="nav-item dot text-center">
+        <a class="nav-link icone-step" href="#" ><i class="fas fa-dollar-sign"></i></a>
+        <label class="label-wizard">Dados Financeiros</label>
+    </li>
+</ul>
+<br/>
+<div class="conteudo-Passo" >dados</div>
+<div class="conteudo-Passo" style="display: none">servico </div>
+<div class="conteudo-Passo" style="display: none">equipe</div>
+<div class="conteudo-Passo" style="display: none">financeiro</div>
+
+<button onclick="VoltaPasso()" class="btn btn-primary">Voltar</button>
+<button onclick="MudaPasso()" class="btn btn-primary">Mudar</button>
+
+</div>

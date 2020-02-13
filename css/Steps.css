@@ -1,0 +1,149 @@
+.dot {
+    height: 55px;
+    width: 55px;
+    border-color:grey ;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dot.active{
+    border-color:#026aba ;
+}
+
+.icone-step{
+
+    color:grey;
+}
+.icone-step.active{
+    color:#026aba;
+}
+.nav-item.dot a{
+    margin-top: 5px;
+    margin-left: 1px;
+    display: block;
+    vertical-align: top;
+}
+.label-wizard{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 8.5pt;
+    margin-top: 17px;
+    color:grey;
+}
+.label-wizard.active{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 8.5pt;
+    margin-top: 17px;
+    color:#026aba;
+}
+
+.nav div.linha{
+    vertical-align: 10px;
+    width: 112px;
+    height: 1px;
+    border-bottom: 4px solid gray;
+    padding-bottom: 24px;
+}
+.animacao{
+    border-bottom-color: #026aba;
+    animation: colorchange 3s  forwards;
+}
+.animacao-volta{
+    border-bottom-color: grey;
+    animation: colorchange-volta 2s  forwards;
+}
+.animacao-dot{
+    color: #026aba;
+    animation: colorchange-dot 2s  forwards;
+}
+.animacao-dot-volta{
+    color: #026aba;
+    animation: colorchange-dot-volta 2s  forwards;
+}.animacao-icone{
+     color: #026aba;
+     animation: colorchange-icone 2s  forwards;
+ }.animacao-icone-volta{
+      color: #026aba;
+      animation: colorchange-icone-volta 2s  forwards;
+  }
+
+/* Animações de cores*/
+@keyframes colorchange
+ {
+     from   {border-bottom-color: gray;}
+     to {border-bottom-color: #026aba;}
+ }
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+ {
+     from   {border-bottom-color: gray;}
+     to {border-bottom-color: #026aba;}
+
+ }
+@keyframes colorchange-volta
+ {
+     from {border-bottom-color: #026aba;}
+     to   {border-bottom-color: gray;}
+ }
+
+@-webkit-keyframes colorchange-volta /* Safari and Chrome - necessary duplicate */
+ {
+
+     from {border-bottom-color: #026aba;}
+     to   {border-bottom-color: gray;}
+
+ }
+@keyframes colorchange-icone-volta
+ {
+     from {color: #026aba;}
+     to   {color: gray;}
+ }
+
+@-webkit-keyframes colorchange-icone-volta /* Safari and Chrome - necessary duplicate */
+ {
+
+     from {color: #026aba;}
+     to   {color: gray;}
+
+ }
+
+@keyframes colorchange-dot-volta
+ {
+     from {border-color: #026aba;}
+     to   {border-color: gray;}
+ }
+
+@-webkit-keyframes colorchange-dot-volta /* Safari and Chrome - necessary duplicate */
+ {
+
+     from {border-color: #026aba;}
+     to   {border-color: gray;}
+
+ }
+@keyframes colorchange-dot
+ {
+     from   {border-color: gray;}
+     to {border-color: #026aba;}
+ }
+
+@-webkit-keyframes colorchange-dot /* Safari and Chrome - necessary duplicate */
+ {
+     from   {border-color: gray;}
+     to {border-color: #026aba;}
+
+ }
+@keyframes colorchange-icone-dot
+ {
+     from   {color: gray;}
+     to {color: #026aba;}
+ }
+
+@-webkit-keyframes colorchange-icone-dot /* Safari and Chrome - necessary duplicate */
+ {
+     from   {color: gray;}
+     to {color: #026aba;}
+
+ }
